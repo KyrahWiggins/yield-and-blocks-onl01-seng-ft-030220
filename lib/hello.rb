@@ -8,4 +8,4 @@ def hello(array)
   collection
 end
 
-hello() {|i| "Hello #{i} what's up?"}
+hello(list ) {|i| "Hello #{i} what's up?"}
