@@ -1,6 +1,11 @@
-def hello_t
-
+def hello(array)
+  i = 0
+  collection = []
+  while i < array.length
+    collection << yield(array[i])
+    i += 1
+  end
+  collection
 end
 
-# call your method here!
-
+hello() {|i| "Hello #{i} what's up?"}
